@@ -183,7 +183,6 @@ body {
   margin: 15px 0;
   transition: 0.2 ease;
   position: relative;
-  
 }
 #product1 .pro img {
   width: 100%;
@@ -227,7 +226,6 @@ body {
 }
 
 #product1 .pro .cart {
-  
   width: 40px;
   height: 40px;
   line-height: 40px;
@@ -238,8 +236,6 @@ body {
   position: absolute;
   bottom: 20px;
   right: 10px;
-
-
 }
 
 #pagination {
@@ -260,7 +256,6 @@ body {
 }
 
 #newsletter {
-
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
@@ -269,7 +264,6 @@ body {
   background-repeat: no-repeat;
   background-position: 20% 30%;
   background-color: #041e42;
-
 }
 
 #newsletter h4 {
@@ -895,14 +889,17 @@ footer .copyright {
     margin-top: 20px;
     margin-bottom: 20px;
   }
-  #about-head div {
-    padding-left: 0px;
-  }
 
   #about-head div {
+    padding-left: 0px;
     line-height: 1.5px;
     letter-spacing: 1px;
     margin-bottom: 40px;
+  }
+
+  .marquee {
+    height: 10px;
+    padding: 10px;
   }
 
   #about-head .video {
